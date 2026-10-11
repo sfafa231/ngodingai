@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0f1a">
+<title>Ngoding AI — Aplikasi Android (AMIK Serang)</title>
+<meta name="description" content="Unduh aplikasi Android Ngoding AI — asisten coding bertenaga 9Router untuk civitas AMIK Serang.">
+<link rel="icon" href="icon-192.png">
+<style>
+  :root{--bg:#0b0f1a;--bg2:#0e1424;--card:#141b2e;--card2:#182238;--accent:#3b82f6;--accent2:#22d3ee;
+    --line:#243049;--text:#e6edf7;--muted:#93a1bb;--ok:#34d399}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;color:var(--text);font-family:"Plus Jakarta Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    background:radial-gradient(1100px 520px at 80% -10%,#17233f 0,transparent 60%),
+               radial-gradient(900px 500px at -10% 0,#10243a 0,transparent 55%),var(--bg);
+    display:flex;align-items:center;justify-content:center;padding:22px 16px}
+  .wrap{width:100%;max-width:520px;text-align:center}
+  .logo{width:104px;height:104px;object-fit:contain;filter:drop-shadow(0 14px 34px rgba(59,130,246,.45))}
+  h1{margin:16px 0 4px;font-size:30px;letter-spacing:.3px}
+  h1 b{background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{margin:0;color:var(--muted);font-size:13px;letter-spacing:2px;text-transform:uppercase;font-weight:600}
+  .card{margin-top:22px;background:linear-gradient(180deg,var(--card2),var(--bg2));border:1px solid var(--line);
+    border-radius:20px;padding:20px;text-align:left}
+  .meta{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:16px}
+  .tag{font-size:11.5px;color:var(--muted);border:1px solid var(--line);background:var(--card);padding:5px 11px;border-radius:20px}
+  .dl{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:16px;border:none;border-radius:14px;
+    background:linear-gradient(135deg,var(--accent),var(--accent2));color:#04122b;font-weight:800;font-size:16px;
+    text-decoration:none;box-shadow:0 12px 30px rgba(34,211,238,.32)}
+  .dl:active{transform:scale(.98)}
+  .dl svg{width:20px;height:20px;fill:none;stroke:#04122b;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+  .size{margin:10px 0 0;text-align:center;color:var(--muted);font-size:12px}
+  h2{font-size:14px;margin:22px 0 10px;letter-spacing:.3px}
+  ol{margin:0;padding-left:20px;color:var(--muted);font-size:13.5px;line-height:1.9}
+  ol b{color:var(--text)}
+  .feat{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px}
+  .f{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px;font-size:12.5px;color:var(--muted)}
+  .f b{display:block;color:var(--text);font-size:13px;margin-bottom:2px}
+  .note{margin-top:18px;font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+  .note code{background:rgba(255,255,255,.07);padding:2px 6px;border-radius:6px;font-size:11.5px}
+  footer{margin-top:20px;color:var(--muted);font-size:11.5px;text-align:center}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <img class="logo" src="icon-192.png" alt="AMIK Serang">
+    <h1>Ngoding <b>AI</b></h1>
+    <p class="sub">Aplikasi Android · AMIK Serang</p>
+
+    <div class="card">
+      <div class="meta">
+        <span class="tag">📦 APK · 483 KB</span>
+        <span class="tag">🤖 Bertenaga 9Router</span>
+        <span class="tag">🟢 Android 6+</span>
+      </div>
+
+      <a class="dl" href="NgodingAI.apk" download>
+        <svg viewBox="0 0 24 24"><path d="M12 3v13m0 0l-4.5-4.5M12 16l4.5-4.5M5 21h14"/></svg>
+        Unduh Aplikasi (APK)
+      </a>
+      <p class="size">Versi 1.0 · ditandatangani · tidak perlu akun</p>
+
+      <h2>📲 Cara memasang</h2>
+      <ol>
+        <li>Ketuk tombol <b>Unduh Aplikasi</b> di atas.</li>
+        <li>Jika muncul peringatan, pilih <b>“Izinkan pemasangan dari sumber ini”</b>.</li>
+        <li>Setelah selesai, buka aplikasi <b>Ngoding AI</b> dari layar utama.</li>
+        <li>Pastikan <b>9Router</b> aktif di HP (alamat <code>127.0.0.1:20128</code>).</li>
+      </ol>
+
+      <h2>✨ Fitur</h2>
+      <div class="feat">
+        <div class="f"><b>Chat streaming</b>Balasan muncul real-time</div>
+        <div class="f"><b>Pilih model</b>Claude, Gemini, GLM, dll.</div>
+        <div class="f"><b>Blok kode rapi</b>Dengan tombol salin</div>
+        <div class="f"><b>Riwayat tersimpan</b>Multi-obrolan</div>
+      </div>
+
+      <p class="note">Catatan: aplikasi ini terhubung ke <b>9Router</b> yang berjalan di HP kamu (<code>http://127.0.0.1:20128/v1</code>). Alamat & API key bisa diubah di menu <b>Pengaturan</b>.</p>
+    </div>
+
+    <footer>© <span id="y"></span> SANUSI — Mahasiswa AMIK Serang</footer>
+  </div>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
